@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/three.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: center;
+    flex-direction: row;
+    color: ivory;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.container{
+    display: flex;
+    background-color: wheat;
+    width: 100%;
+    color: black;
+    justify-content: space-evenly;
+    font-family: 'Merriweather', serif;
+}
+
+.headerbox{
+    flex: 1 0 0px;
+    display: flex;
+    margin-right: 20px;
+    background-color: crimson;
+}
+
+.loginBox{
+    flex: 1 0 0px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+}
+
+.boxtwo{
+    display: flex;
+    margin: ;
+}
+
+.itemone{
+    align-items: flex-start;
+    flex-direction: row;
+}
+.itemtwo{
+    align-items: flex-end;
+    
+}
+
+footer{
+    background-color:black;
+    color: white;
+}
